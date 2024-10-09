@@ -79,6 +79,7 @@
 
 .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-right {
     order: 1 !important;
+    justify-content: flex-start;
 }
 
 .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-right>.action-toolbar-container {
