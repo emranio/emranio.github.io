@@ -1,0 +1,60 @@
+.action-item.icon {
+    border-radius: 3px !important;
+    padding: 0 !important;
+    margin: 3px !important;
+    border: 1px solid rgb(255 255 255 / 20%) !important;
+    height: 22px !important;
+    width: 22px !important;
+    text-align: center;
+}
+
+.monaco-workbench .codicon[class*=codicon-] {
+    font-size: 14px;
+}
+
+[class*="activity-workbench-view-extension-project-manager-"][class*="uri-icon"] {
+    background: none !important;
+    mask-image: none !important;
+    align-items: center;
+    display: flex;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    font: normal normal normal 16px / 1 codicon;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: auto;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+[class*="activity-workbench-view-extension-project-manager-"][class*="uri-icon"]:before {
+    content: "\ea83";
+    font-size: 17px;
+    left: 2px !important;
+    position: absolute !important;
+    color: rgba(231, 231, 231, 0.6) !important;
+}
+
+.monaco-workbench .pane-composite-part>.header-or-footer>.composite-bar-container>.composite-bar>.monaco-action-bar .action-item.checked .active-item-indicator:before {
+    left: 0 !important;
+}
+
+.action-item.menu-entry,
+.action-item.disabled menu-entry {
+    display: none !important;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
+    max-width: 100% !important;
+    width: 54vw !important;
+}
+
+.quick-input-widget {
+    width: 54vw !important;
+    margin-left: 0 !important;
+    transform: translateX(-50%);
+}
