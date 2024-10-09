@@ -65,7 +65,8 @@
 .quick-input-widget {
     width: 50vw !important;
     margin-left: 0 !important;
-    transform: translateX(-50%);
+    left: auto !important;
+    right: 17px !important;
 }
 
 .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left {
