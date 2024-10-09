@@ -1,4 +1,4 @@
-.action-item.icon {
+.composite-bar-container .action-item.icon {
     border-radius: 3px !important;
     padding: 0 !important;
     margin: 3px !important;
@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.monaco-workbench .codicon[class*=codicon-] {
+.monaco-workbench .composite-bar-container .codicon[class*=codicon-] {
     font-size: 14px;
 }
 
@@ -43,18 +43,26 @@
     left: 0 !important;
 }
 
-.action-item.menu-entry,
-.action-item.disabled menu-entry {
+.monaco-workbench .part.sidebar .title-actions .actions-container {
+    margin-right: -5px;
+}
+
+.command-center .action-item.menu-entry,
+.command-center .action-item.disabled menu-entry {
     display: none !important;
 }
 
+.titlebar-right .action-label.codicon.codicon-split-horizontal {
+    font-size: 19px !important;
+    margin-top: 3px !important;
+}
 .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
     max-width: 100% !important;
-    width: 54vw !important;
+    width: 50vw !important;
 }
 
 .quick-input-widget {
-    width: 54vw !important;
+    width: 50vw !important;
     margin-left: 0 !important;
     transform: translateX(-50%);
 }
