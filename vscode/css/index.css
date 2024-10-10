@@ -85,3 +85,8 @@
 .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-right>.action-toolbar-container {
     margin-left: 5px !important;
 }
+
+.tab.tab-actions-right,
+.tab.tab-actions-right * {
+    font-size: 16px !important;
+}
