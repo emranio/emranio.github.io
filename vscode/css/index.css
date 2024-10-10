@@ -56,6 +56,7 @@
     font-size: 19px !important;
     margin-top: 3px !important;
 }
+
 .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
     max-width: 100% !important;
     width: 50vw !important;
@@ -64,7 +65,25 @@
 .quick-input-widget {
     width: 50vw !important;
     margin-left: 0 !important;
-    transform: translateX(-50%);
+    left: auto !important;
+    right: 17px !important;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left {
+    max-width: 100px !important;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center {
+    order: 2 !important;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-right {
+    order: 1 !important;
+    justify-content: flex-start;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-right>.action-toolbar-container {
+    margin-left: 5px !important;
 }
 .monaco-editor .margin {
     width: 40px !important;
