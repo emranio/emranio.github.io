@@ -85,14 +85,3 @@
 .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-right>.action-toolbar-container {
     margin-left: 5px !important;
 }
-.monaco-editor .margin {
-    width: 40px !important;
-}
-
-.monaco-editor .margin-view-overlays {
-    width: 40px !important;
-}
-
-.monaco-scrollable-element.editor-scrollable {
-    left: 40px !important;
-}
