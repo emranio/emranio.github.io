@@ -90,3 +90,17 @@
 .tab.tab-actions-right * {
     font-size: 16px !important;
 }
+
+test.action-label.activity-workbench-view-extension-gistpad-df1aeeecc58d66d32e30adece42c3606087270b3.uri-icon::after {
+    content: attr(aria-label); /* Use the aria-label attribute as content */
+    display: block; /* Ensure it displays as a block element */
+    background-color: rgba(231, 231, 231, 0.6); /* Match the background color */
+    padding: 5px; /* Add some padding */
+    border-radius: 3px; /* Add border radius */
+    position: absolute; /* Position it absolutely */
+    top: 100%; /* Position it below the element */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Center it horizontally */
+    white-space: nowrap; /* Prevent text wrapping */
+    z-index: 10; /* Ensure it appears above other elements */
+}
